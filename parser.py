@@ -210,8 +210,6 @@ def create_result_file(res):
                     f"{line[:-1]}{status}|\n")
                 id += 1
 
-        # f.write(
-        #    f"Please check following reports to apply security practises:  \n")
         for key, value in res.get_docs().items():
             f.write(
                 f"|{key}|S{value}|\n")
