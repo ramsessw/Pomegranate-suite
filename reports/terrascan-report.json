@@ -1,0 +1,1999 @@
+{
+  "results": {
+    "scan_errors": [
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/api",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/api' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/api/v1beta1",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/api/v1beta1' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/config' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/certmanager",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/certmanager' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd/bases",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd/bases' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd/patches",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd/patches' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/default",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/default' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/manager",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/manager' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/prometheus",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/prometheus' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/samples",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/samples' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/scorecard",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/scorecard' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/scorecard/bases",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/scorecard/bases' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/scorecard/patches",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/scorecard/patches' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/controllers",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/controllers' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/dashboards",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/dashboards' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/assets",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/assets' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/assets/icons",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/assets/icons' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/assets/scss",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/assets/scss' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/assets/templates",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/assets/templates' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/community",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/community' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Advance Configuration",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Advance Configuration' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Advance Configuration/Exposing Redis",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Advance Configuration/Exposing Redis' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Advance Configuration/TLS and Security",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Advance Configuration/TLS and Security' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Advance Configuration/Upgrading",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Advance Configuration/Upgrading' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/CRD Reference",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/CRD Reference' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/CRD Reference/Redis API",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/CRD Reference/Redis API' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Configuration",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Configuration' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Configuration/Redis",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Configuration/Redis' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Configuration/RedisCluster",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Configuration/RedisCluster' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Contribute",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Contribute' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Getting Started",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Getting Started' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Getting Started/Cluster",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Getting Started/Cluster' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Getting Started/Failover Testing",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Getting Started/Failover Testing' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Getting Started/Standalone",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Getting Started/Standalone' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Installation",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Installation' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Installation/Create Cluster",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Installation/Create Cluster' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Installation/Installation",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Installation/Installation' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Installation/Upgradation",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Installation/Upgradation' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Installation/Validation",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Installation/Validation' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Monitoring",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Monitoring' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Overview",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Overview' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Redis Overview",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Redis Overview' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Release History",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/content/en/docs/Release History' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/layouts",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/layouts' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/layouts/partials",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/layouts/partials' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/layouts/partials/hooks",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/layouts/partials/hooks' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/layouts/shortcodes",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/layouts/shortcodes' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/layouts/shortcodes/blocks",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/layouts/shortcodes/blocks' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/static",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/static' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/static/css",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/static/css' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/static/diagrams",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/static/diagrams' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/static/favicons",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/static/favicons' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/static/images",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/static/images' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/static/js",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/static/js' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/icons",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/icons' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/js",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/js' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/scss",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/scss' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/scss/blocks",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/scss/blocks' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/scss/rtl",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/scss/rtl' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/scss/support",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/scss/support' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/stubs",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/stubs' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/css",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/css' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-common-types",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-common-types' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/css",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/css' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/js",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/js' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/less",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/less' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/metadata",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/metadata' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/scss",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/scss' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/sprites",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/sprites' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/svgs",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/svgs' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/svgs/brands",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/svgs/brands' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/svgs/regular",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/svgs/regular' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/svgs/solid",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/svgs/solid' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/webfonts",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/webfonts' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-svg-core",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-svg-core' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/free-brands-svg-icons",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/free-brands-svg-icons' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/free-regular-svg-icons",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/free-regular-svg-icons' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/free-solid-svg-icons",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/free-solid-svg-icons' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/less",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/less' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/metadata",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/metadata' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/otfs",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/otfs' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/scss",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/scss' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/sprites",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/sprites' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/svgs",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/svgs' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/svgs/brands",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/svgs/brands' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/svgs/regular",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/svgs/regular' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/svgs/solid",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/svgs/solid' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/webfonts",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/webfonts' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/build",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/build' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/dist",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/dist' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/dist/css",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/dist/css' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/dist/js",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/dist/js' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/js",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/js' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/js/dist",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/js/dist' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/js/src",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/js/src' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/js/src/tools",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/js/src/tools' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/js/tests",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/js/tests' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/js/tests/integration",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/js/tests/integration' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/js/tests/unit",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/js/tests/unit' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/js/tests/visual",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/js/tests/visual' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/nuget",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/nuget' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/scss",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/scss' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/scss/mixins",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/scss/mixins' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/scss/utilities",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/scss/utilities' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/scss/vendor",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/scss/vendor' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/assets",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/assets' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/assets/js",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/assets/js' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/assets/js/vendor",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/assets/js/vendor' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/assets/scss",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/assets/scss' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/about",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/about' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/components",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/components' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/content",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/content' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/album",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/album' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/blog",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/blog' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/carousel",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/carousel' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/checkout",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/checkout' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/cover",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/cover' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/dashboard",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/dashboard' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/floating-labels",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/floating-labels' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/grid",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/grid' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/jumbotron",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/jumbotron' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/navbar-bottom",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/navbar-bottom' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/navbar-fixed",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/navbar-fixed' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/navbar-static",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/navbar-static' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/navbars",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/navbars' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/offcanvas",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/offcanvas' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/pricing",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/pricing' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/product",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/product' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/sign-in",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/sign-in' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/starter-template",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/starter-template' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/sticky-footer",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/sticky-footer' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/sticky-footer-navbar",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/sticky-footer-navbar' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/extend",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/extend' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/getting-started",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/getting-started' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/layout",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/layout' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/utilities",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/utilities' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/data",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/data' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/layouts",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/layouts' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/layouts/_default",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/layouts/_default' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/layouts/partials",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/layouts/partials' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/layouts/partials/home",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/layouts/partials/home' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/layouts/partials/icons",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/layouts/partials/icons' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/layouts/shortcodes",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/layouts/shortcodes' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/static",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/static' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/static/docs",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/static/docs' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/static/docs/4.6",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/static/docs/4.6' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/static/docs/4.6/assets",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/static/docs/4.6/assets' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/static/docs/4.6/assets/brand",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/static/docs/4.6/assets/brand' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/static/docs/4.6/assets/img",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/static/docs/4.6/assets/img' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/static/docs/4.6/assets/img/examples",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/static/docs/4.6/assets/img/examples' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/static/docs/4.6/assets/img/favicons",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/static/docs/4.6/assets/img/favicons' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/static/docs/4.6/assets/js",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/static/docs/4.6/assets/js' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/static/docs/4.6/assets/js/vendor",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/static/docs/4.6/assets/js/vendor' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/i18n",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/i18n' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/images",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/images' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/layouts",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/layouts' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/layouts/_default",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/layouts/_default' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/layouts/blog",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/layouts/blog' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/layouts/community",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/layouts/community' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/layouts/docs",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/layouts/docs' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/layouts/partials",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/layouts/partials' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/layouts/partials/hooks",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/layouts/partials/hooks' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/layouts/partials/print",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/layouts/partials/print' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/layouts/shortcodes",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/layouts/shortcodes' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/layouts/shortcodes/blocks",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/layouts/shortcodes/blocks' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/layouts/swagger",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/layouts/swagger' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/static",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/static' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/static/css",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/static/css' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/static/css/shortcodes",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/static/css/shortcodes' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/static/favicons",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/static/favicons' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/static/js",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/static/js' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/static/webfonts",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/static/webfonts' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/example' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/additional_config",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/additional_config' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/advance_config",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/advance_config' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/affinity",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/affinity' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/disruption_budget",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/disruption_budget' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/external_service",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/external_service' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/password_protected",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/password_protected' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/private_registry",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/private_registry' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/probes",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/probes' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/redis_monitoring",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/redis_monitoring' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/tls_enabled",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/tls_enabled' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/upgrade-strategy",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/upgrade-strategy' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/hack",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/hack' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/k8sutils",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/k8sutils' has no terraform config files"
+      },
+      {
+        "iac_type": "terraform",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/static",
+        "errMsg": "directory '/home/vagrant/Pomegranate-suite/apps/redis-operator/static' has no terraform config files"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/.azure-pipelines",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/.azure-pipelines/pipeline.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/.azure-pipelines/pipeline.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/.github/workflows",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/.github/workflows/codeql-analysis.yml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/.github/workflows/codeql-analysis.yml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/.travis.yml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/.travis.yml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/certmanager",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/certmanager/certificate.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/certmanager/certificate.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/certmanager",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/certmanager/kustomization.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/certmanager/kustomization.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/certmanager",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/certmanager/kustomizeconfig.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/certmanager/kustomizeconfig.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd/bases",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd/bases/redis.redis.opstreelabs.in_redis.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd/bases/redis.redis.opstreelabs.in_redis.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd/bases",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd/bases/redis.redis.opstreelabs.in_redisclusters.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd/bases/redis.redis.opstreelabs.in_redisclusters.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd/kustomization.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd/kustomization.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd/kustomizeconfig.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd/kustomizeconfig.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd/patches",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd/patches/cainjection_in_redis.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd/patches/cainjection_in_redis.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd/patches",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd/patches/cainjection_in_redisclusters.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd/patches/cainjection_in_redisclusters.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd/patches",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd/patches/webhook_in_redis.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd/patches/webhook_in_redis.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd/patches",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd/patches/webhook_in_redisclusters.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/crd/patches/webhook_in_redisclusters.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/default",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/default/kustomization.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/default/kustomization.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/default",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/default/manager_auth_proxy_patch.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/default/manager_auth_proxy_patch.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/default",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/default/manager_config_patch.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/default/manager_config_patch.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/manager",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/manager/controller_manager_config.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/manager/controller_manager_config.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/manager",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/manager/kustomization.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/manager/kustomization.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/manager",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/manager/manager.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/manager/manager.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/prometheus",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/prometheus/kustomization.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/prometheus/kustomization.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/prometheus",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/prometheus/monitor.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/prometheus/monitor.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/prometheus",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/prometheus/redis-servicemonitor.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/prometheus/redis-servicemonitor.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac/auth_proxy_client_clusterrole.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac/auth_proxy_client_clusterrole.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac/auth_proxy_role.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac/auth_proxy_role.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac/auth_proxy_role_binding.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac/auth_proxy_role_binding.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac/auth_proxy_service.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac/auth_proxy_service.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac/kustomization.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac/kustomization.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac/leader_election_role.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac/leader_election_role.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac/leader_election_role_binding.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac/leader_election_role_binding.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac/redis_editor_role.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac/redis_editor_role.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac/redis_viewer_role.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac/redis_viewer_role.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac/rediscluster_editor_role.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac/rediscluster_editor_role.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac/rediscluster_viewer_role.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac/rediscluster_viewer_role.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac/role.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac/role.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac/role_binding.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac/role_binding.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac/serviceaccount.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/rbac/serviceaccount.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/samples",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/samples/kustomization.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/samples/kustomization.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/samples",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/samples/redis_v1beta1_redis.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/samples/redis_v1beta1_redis.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/scorecard/bases",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/scorecard/bases/config.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/scorecard/bases/config.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/scorecard",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/scorecard/kustomization.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/config/scorecard/kustomization.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/scorecard/patches",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/scorecard/patches/basic.config.yaml', err: json: cannot unmarshal array into Go value of type map[string]interface {}"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/config/scorecard/patches",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/config/scorecard/patches/olm.config.yaml', err: json: cannot unmarshal array into Go value of type map[string]interface {}"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/dashboards",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/dashboards/redis-operator-cluster.json', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/dashboards/redis-operator-cluster.json"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/app.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/docs/app.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/assets/templates",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/assets/templates/crd-doc-config.json', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/docs/assets/templates/crd-doc-config.json"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/cloudbuild.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/docs/cloudbuild.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/htmltest.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/docs/htmltest.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/package.json', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/docs/package.json"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/LICENSE.txt', err: error while resolving intrinsic functions, error invalid YAML template: yaml: line 5: mapping values are not allowed in this context"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-common-types",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-common-types/LICENSE.txt', err: error while resolving intrinsic functions, error invalid YAML template: yaml: line 5: mapping values are not allowed in this context"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/LICENSE.txt', err: error while resolving intrinsic functions, error invalid YAML template: yaml: line 5: mapping values are not allowed in this context"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/metadata",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/metadata/categories.yml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/metadata/categories.yml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/metadata",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/metadata/icons.yml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/metadata/icons.yml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/metadata",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/metadata/shims.yml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/metadata/shims.yml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/metadata",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/metadata/sponsors.yml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/metadata/sponsors.yml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-svg-core",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-svg-core/LICENSE.txt', err: error while resolving intrinsic functions, error invalid YAML template: yaml: line 5: mapping values are not allowed in this context"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/free-brands-svg-icons",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/free-brands-svg-icons/LICENSE.txt', err: error while resolving intrinsic functions, error invalid YAML template: yaml: line 5: mapping values are not allowed in this context"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/free-regular-svg-icons",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/free-regular-svg-icons/LICENSE.txt', err: error while resolving intrinsic functions, error invalid YAML template: yaml: line 5: mapping values are not allowed in this context"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/free-solid-svg-icons",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/free-solid-svg-icons/LICENSE.txt', err: error while resolving intrinsic functions, error invalid YAML template: yaml: line 5: mapping values are not allowed in this context"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/metadata",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/metadata/categories.yml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/metadata/categories.yml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/metadata",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/metadata/icons.yml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/metadata/icons.yml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/metadata",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/metadata/shims.yml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/metadata/shims.yml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/metadata",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/metadata/sponsors.yml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/Font-Awesome/metadata/sponsors.yml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/build",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/build/svgo.yml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/build/svgo.yml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/config.yml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/config.yml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/starter-template', err: unable to read file /home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/content/docs/4.6/examples/starter-template"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/data",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/data/breakpoints.yml', err: json: cannot unmarshal array into Go value of type map[string]interface {}"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/data",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/data/browser-bugs.yml', err: json: cannot unmarshal array into Go value of type map[string]interface {}"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/data",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/data/browser-features.yml', err: json: cannot unmarshal array into Go value of type map[string]interface {}"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/data",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/data/colors.yml', err: json: cannot unmarshal array into Go value of type map[string]interface {}"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/data",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/data/core-team.yml', err: json: cannot unmarshal array into Go value of type map[string]interface {}"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/data",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/data/docs-versions.yml', err: json: cannot unmarshal array into Go value of type map[string]interface {}"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/data",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/data/examples.yml', err: json: cannot unmarshal array into Go value of type map[string]interface {}"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/data",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/data/grays.yml', err: json: cannot unmarshal array into Go value of type map[string]interface {}"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/data",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/data/sidebar.yml', err: json: cannot unmarshal array into Go value of type map[string]interface {}"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/data",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/data/theme-colors.yml', err: json: cannot unmarshal array into Go value of type map[string]interface {}"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/data",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/data/translations.yml', err: json: cannot unmarshal array into Go value of type map[string]interface {}"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/layouts",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/themes/docsy/assets/vendor/bootstrap/site/layouts/robots.txt', err: error while resolving intrinsic functions, error invalid YAML template: yaml: line 2: found unexpected ':'"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/docs",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/docs/vanity.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/docs/vanity.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/additional_config",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/additional_config/clusterd.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/example/additional_config/clusterd.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/additional_config",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/additional_config/configmap.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/example/additional_config/configmap.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/additional_config",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/additional_config/standalone.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/example/additional_config/standalone.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/advance_config",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/advance_config/clusterd.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/example/advance_config/clusterd.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/advance_config",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/advance_config/standalone.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/example/advance_config/standalone.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/affinity",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/affinity/clusterd.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/example/affinity/clusterd.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/affinity",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/affinity/standalone.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/example/affinity/standalone.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/disruption_budget",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/disruption_budget/clusterd.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/example/disruption_budget/clusterd.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/eks-cluster.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/example/eks-cluster.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/external_service",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/external_service/cluster-svc.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/example/external_service/cluster-svc.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/external_service",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/external_service/clusterd.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/example/external_service/clusterd.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/external_service",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/external_service/standalone-svc.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/example/external_service/standalone-svc.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/external_service",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/external_service/standalone.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/example/external_service/standalone.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/password_protected",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/password_protected/clusterd.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/example/password_protected/clusterd.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/password_protected",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/password_protected/standalone.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/example/password_protected/standalone.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/private_registry",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/private_registry/clusterd.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/example/private_registry/clusterd.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/private_registry",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/private_registry/standalone.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/example/private_registry/standalone.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/probes",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/probes/clusterd.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/example/probes/clusterd.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/probes",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/probes/standalone.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/example/probes/standalone.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/redis-cluster.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/example/redis-cluster.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/redis-standalone.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/example/redis-standalone.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/redis_monitoring",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/redis_monitoring/clusterd.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/example/redis_monitoring/clusterd.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/redis_monitoring",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/redis_monitoring/standalone.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/example/redis_monitoring/standalone.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/tls_enabled",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/tls_enabled/redis-cluster.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/example/tls_enabled/redis-cluster.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/tls_enabled",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/tls_enabled/redis-standalone.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/example/tls_enabled/redis-standalone.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/upgrade-strategy",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/upgrade-strategy/clusterd.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/example/upgrade-strategy/clusterd.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/example/upgrade-strategy",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/example/upgrade-strategy/standalone.yaml', err: failed to find valid Resources key in file: /home/vagrant/Pomegranate-suite/apps/redis-operator/example/upgrade-strategy/standalone.yaml"
+      },
+      {
+        "iac_type": "cft",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator/hack",
+        "errMsg": "error while loading iac file '/home/vagrant/Pomegranate-suite/apps/redis-operator/hack/boilerplate.go.txt', err: json: cannot unmarshal string into Go value of type map[string]interface {}"
+      },
+      {
+        "iac_type": "kustomize",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator",
+        "errMsg": "kustomization.y(a)ml file not found in the directory /home/vagrant/Pomegranate-suite/apps/redis-operator"
+      },
+      {
+        "iac_type": "helm",
+        "directory": "/home/vagrant/Pomegranate-suite/apps/redis-operator",
+        "errMsg": "no helm charts found in directory /home/vagrant/Pomegranate-suite/apps/redis-operator"
+      }
+    ],
+    "violations": [
+      {
+        "rule_name": "imageVersionnotusinglatest",
+        "description": "Ensure platform flag with FROM command is not used for Docker file",
+        "rule_id": "AC_DOCKER_0041",
+        "severity": "MEDIUM",
+        "category": "Infrastructure Security",
+        "resource_name": "Dockerfile",
+        "resource_type": "docker_from",
+        "file": "Dockerfile",
+        "line": 3
+      },
+      {
+        "rule_name": "imageVersionnotusinglatest",
+        "description": "Ensure platform flag with FROM command is not used for Docker file",
+        "rule_id": "AC_DOCKER_0041",
+        "severity": "MEDIUM",
+        "category": "Infrastructure Security",
+        "resource_name": "Dockerfile",
+        "resource_type": "docker_from",
+        "file": "Dockerfile",
+        "line": 24
+      },
+      {
+        "rule_name": "CpuRequestsCheck",
+        "description": "CPU Request Not Set in config file.",
+        "rule_id": "AC_K8S_0097",
+        "severity": "Medium",
+        "category": "Security Best Practices",
+        "resource_name": "controller-manager",
+        "resource_type": "kubernetes_deployment",
+        "file": "config/default/manager_auth_proxy_patch.yaml",
+        "line": 1
+      },
+      {
+        "rule_name": "CpuRequestsCheck",
+        "description": "CPU Request Not Set in config file.",
+        "rule_id": "AC_K8S_0097",
+        "severity": "Medium",
+        "category": "Security Best Practices",
+        "resource_name": "controller-manager",
+        "resource_type": "kubernetes_deployment",
+        "file": "config/default/manager_config_patch.yaml",
+        "line": 1
+      },
+      {
+        "rule_name": "MemoryRequestsCheck",
+        "description": "Memory Request Not Set in config file.",
+        "rule_id": "AC_K8S_0099",
+        "severity": "Medium",
+        "category": "Security Best Practices",
+        "resource_name": "controller-manager",
+        "resource_type": "kubernetes_deployment",
+        "file": "config/default/manager_auth_proxy_patch.yaml",
+        "line": 1
+      },
+      {
+        "rule_name": "MemoryRequestsCheck",
+        "description": "Memory Request Not Set in config file.",
+        "rule_id": "AC_K8S_0099",
+        "severity": "Medium",
+        "category": "Security Best Practices",
+        "resource_name": "controller-manager",
+        "resource_type": "kubernetes_deployment",
+        "file": "config/default/manager_config_patch.yaml",
+        "line": 1
+      },
+      {
+        "rule_name": "runAsNonRootCheck",
+        "description": "Minimize Admission of Root Containers",
+        "rule_id": "AC_K8S_0087",
+        "severity": "HIGH",
+        "category": "Identity and Access Management",
+        "resource_name": "controller-manager",
+        "resource_type": "kubernetes_deployment",
+        "file": "config/default/manager_auth_proxy_patch.yaml",
+        "line": 1
+      },
+      {
+        "rule_name": "runAsNonRootCheck",
+        "description": "Minimize Admission of Root Containers",
+        "rule_id": "AC_K8S_0087",
+        "severity": "HIGH",
+        "category": "Identity and Access Management",
+        "resource_name": "controller-manager",
+        "resource_type": "kubernetes_deployment",
+        "file": "config/default/manager_config_patch.yaml",
+        "line": 1
+      },
+      {
+        "rule_name": "runAsNonRootCheck",
+        "description": "Minimize Admission of Root Containers",
+        "rule_id": "AC_K8S_0087",
+        "severity": "HIGH",
+        "category": "Identity and Access Management",
+        "resource_name": "redis-operator",
+        "resource_type": "kubernetes_deployment",
+        "file": "config/manager/manager.yaml",
+        "line": 2
+      },
+      {
+        "rule_name": "privilegeEscalationCheck",
+        "description": "Containers Should Not Run with AllowPrivilegeEscalation",
+        "rule_id": "AC_K8S_0085",
+        "severity": "HIGH",
+        "category": "Compliance Validation",
+        "resource_name": "controller-manager",
+        "resource_type": "kubernetes_deployment",
+        "file": "config/default/manager_auth_proxy_patch.yaml",
+        "line": 1
+      },
+      {
+        "rule_name": "privilegeEscalationCheck",
+        "description": "Containers Should Not Run with AllowPrivilegeEscalation",
+        "rule_id": "AC_K8S_0085",
+        "severity": "HIGH",
+        "category": "Compliance Validation",
+        "resource_name": "controller-manager",
+        "resource_type": "kubernetes_deployment",
+        "file": "config/default/manager_config_patch.yaml",
+        "line": 1
+      },
+      {
+        "rule_name": "CpulimitsCheck",
+        "description": "CPU Limits Not Set in config file.",
+        "rule_id": "AC_K8S_0098",
+        "severity": "Medium",
+        "category": "Security Best Practices",
+        "resource_name": "controller-manager",
+        "resource_type": "kubernetes_deployment",
+        "file": "config/default/manager_auth_proxy_patch.yaml",
+        "line": 1
+      },
+      {
+        "rule_name": "CpulimitsCheck",
+        "description": "CPU Limits Not Set in config file.",
+        "rule_id": "AC_K8S_0098",
+        "severity": "Medium",
+        "category": "Security Best Practices",
+        "resource_name": "controller-manager",
+        "resource_type": "kubernetes_deployment",
+        "file": "config/default/manager_config_patch.yaml",
+        "line": 1
+      },
+      {
+        "rule_name": "securityContextUsed",
+        "description": "Apply Security Context to Your Pods and Containers",
+        "rule_id": "AC_K8S_0064",
+        "severity": "MEDIUM",
+        "category": "Infrastructure Security",
+        "resource_name": "controller-manager",
+        "resource_type": "kubernetes_deployment",
+        "file": "config/default/manager_auth_proxy_patch.yaml",
+        "line": 1
+      },
+      {
+        "rule_name": "securityContextUsed",
+        "description": "Apply Security Context to Your Pods and Containers",
+        "rule_id": "AC_K8S_0064",
+        "severity": "MEDIUM",
+        "category": "Infrastructure Security",
+        "resource_name": "controller-manager",
+        "resource_type": "kubernetes_deployment",
+        "file": "config/default/manager_config_patch.yaml",
+        "line": 1
+      },
+      {
+        "rule_name": "appArmorProfile",
+        "description": "AppArmor profile not set to default or custom profile will make the container vulnerable to kernel level threats",
+        "rule_id": "AC_K8S_0073",
+        "severity": "MEDIUM",
+        "category": "Identity and Access Management",
+        "resource_name": "redis-operator",
+        "resource_type": "kubernetes_deployment",
+        "file": "config/manager/manager.yaml",
+        "line": 2
+      },
+      {
+        "rule_name": "noOwnerLabel",
+        "description": "No owner for namespace affects the operations",
+        "rule_id": "AC_K8S_0013",
+        "severity": "LOW",
+        "category": "Security Best Practices",
+        "resource_name": "ot-operators",
+        "resource_type": "kubernetes_namespace",
+        "file": "config/manager/manager.yaml",
+        "line": 1
+      },
+      {
+        "rule_name": "readOnlyFileSystem",
+        "description": "Container images with readOnlyRootFileSystem set as false mounts the container root file system with write permissions",
+        "rule_id": "AC_K8S_0078",
+        "severity": "MEDIUM",
+        "category": "Identity and Access Management",
+        "resource_name": "controller-manager",
+        "resource_type": "kubernetes_deployment",
+        "file": "config/default/manager_auth_proxy_patch.yaml",
+        "line": 1
+      },
+      {
+        "rule_name": "readOnlyFileSystem",
+        "description": "Container images with readOnlyRootFileSystem set as false mounts the container root file system with write permissions",
+        "rule_id": "AC_K8S_0078",
+        "severity": "MEDIUM",
+        "category": "Identity and Access Management",
+        "resource_name": "controller-manager",
+        "resource_type": "kubernetes_deployment",
+        "file": "config/default/manager_config_patch.yaml",
+        "line": 1
+      },
+      {
+        "rule_name": "readOnlyFileSystem",
+        "description": "Container images with readOnlyRootFileSystem set as false mounts the container root file system with write permissions",
+        "rule_id": "AC_K8S_0078",
+        "severity": "MEDIUM",
+        "category": "Identity and Access Management",
+        "resource_name": "redis-operator",
+        "resource_type": "kubernetes_deployment",
+        "file": "config/manager/manager.yaml",
+        "line": 2
+      },
+      {
+        "rule_name": "nodePort",
+        "description": "Nodeport service can expose the worker nodes as they have public interface",
+        "rule_id": "AC_K8S_0111",
+        "severity": "LOW",
+        "category": "Infrastructure Security",
+        "resource_name": "redis-cluster-leaders",
+        "resource_type": "kubernetes_service",
+        "file": "example/external_service/cluster-svc.yaml",
+        "line": 1
+      },
+      {
+        "rule_name": "nodePort",
+        "description": "Nodeport service can expose the worker nodes as they have public interface",
+        "rule_id": "AC_K8S_0111",
+        "severity": "LOW",
+        "category": "Infrastructure Security",
+        "resource_name": "redis-cluster-followers",
+        "resource_type": "kubernetes_service",
+        "file": "example/external_service/cluster-svc.yaml",
+        "line": 2
+      },
+      {
+        "rule_name": "nodePort",
+        "description": "Nodeport service can expose the worker nodes as they have public interface",
+        "rule_id": "AC_K8S_0111",
+        "severity": "LOW",
+        "category": "Infrastructure Security",
+        "resource_name": "redis-standalone",
+        "resource_type": "kubernetes_service",
+        "file": "example/external_service/standalone-svc.yaml",
+        "line": 1
+      },
+      {
+        "rule_name": "MemorylimitsCheck",
+        "description": "Memory Limits Not Set in config file.",
+        "rule_id": "AC_K8S_0100",
+        "severity": "Medium",
+        "category": "Security Best Practices",
+        "resource_name": "controller-manager",
+        "resource_type": "kubernetes_deployment",
+        "file": "config/default/manager_auth_proxy_patch.yaml",
+        "line": 1
+      },
+      {
+        "rule_name": "MemorylimitsCheck",
+        "description": "Memory Limits Not Set in config file.",
+        "rule_id": "AC_K8S_0100",
+        "severity": "Medium",
+        "category": "Security Best Practices",
+        "resource_name": "controller-manager",
+        "resource_type": "kubernetes_deployment",
+        "file": "config/default/manager_config_patch.yaml",
+        "line": 1
+      },
+      {
+        "rule_name": "noReadinessProbe",
+        "description": "No readiness probe will affect automatic recovery in case of unexpected errors",
+        "rule_id": "AC_K8S_0072",
+        "severity": "LOW",
+        "category": "Security Best Practices",
+        "resource_name": "controller-manager",
+        "resource_type": "kubernetes_deployment",
+        "file": "config/default/manager_auth_proxy_patch.yaml",
+        "line": 1
+      },
+      {
+        "rule_name": "noReadinessProbe",
+        "description": "No readiness probe will affect automatic recovery in case of unexpected errors",
+        "rule_id": "AC_K8S_0072",
+        "severity": "LOW",
+        "category": "Security Best Practices",
+        "resource_name": "controller-manager",
+        "resource_type": "kubernetes_deployment",
+        "file": "config/default/manager_config_patch.yaml",
+        "line": 1
+      },
+      {
+        "rule_name": "secCompProfile",
+        "description": "Default seccomp profile not enabled will make the container to make non-essential system calls",
+        "rule_id": "AC_K8S_0080",
+        "severity": "MEDIUM",
+        "category": "Identity and Access Management",
+        "resource_name": "redis-operator",
+        "resource_type": "kubernetes_deployment",
+        "file": "config/manager/manager.yaml",
+        "line": 2
+      },
+      {
+        "rule_name": "secCompProfile",
+        "description": "Default seccomp profile not enabled will make the container to make non-essential system calls",
+        "rule_id": "AC_K8S_0080",
+        "severity": "MEDIUM",
+        "category": "Identity and Access Management",
+        "resource_name": "controller-manager",
+        "resource_type": "kubernetes_deployment",
+        "file": "config/default/manager_auth_proxy_patch.yaml",
+        "line": 1
+      },
+      {
+        "rule_name": "secCompProfile",
+        "description": "Default seccomp profile not enabled will make the container to make non-essential system calls",
+        "rule_id": "AC_K8S_0080",
+        "severity": "MEDIUM",
+        "category": "Identity and Access Management",
+        "resource_name": "controller-manager",
+        "resource_type": "kubernetes_deployment",
+        "file": "config/default/manager_config_patch.yaml",
+        "line": 1
+      },
+      {
+        "rule_name": "nolivenessProbe",
+        "description": "No liveness probe will ensure there is no recovery in case of unexpected errors",
+        "rule_id": "AC_K8S_0070",
+        "severity": "LOW",
+        "category": "Security Best Practices",
+        "resource_name": "controller-manager",
+        "resource_type": "kubernetes_deployment",
+        "file": "config/default/manager_auth_proxy_patch.yaml",
+        "line": 1
+      },
+      {
+        "rule_name": "nolivenessProbe",
+        "description": "No liveness probe will ensure there is no recovery in case of unexpected errors",
+        "rule_id": "AC_K8S_0070",
+        "severity": "LOW",
+        "category": "Security Best Practices",
+        "resource_name": "controller-manager",
+        "resource_type": "kubernetes_deployment",
+        "file": "config/default/manager_config_patch.yaml",
+        "line": 1
+      },
+      {
+        "rule_name": "imageWithoutDigest",
+        "description": "Image without digest affects the integrity principle of image security",
+        "rule_id": "AC_K8S_0069",
+        "severity": "MEDIUM",
+        "category": "Infrastructure Security",
+        "resource_name": "controller-manager",
+        "resource_type": "kubernetes_deployment",
+        "file": "config/default/manager_auth_proxy_patch.yaml",
+        "line": 1
+      },
+      {
+        "rule_name": "imageWithoutDigest",
+        "description": "Image without digest affects the integrity principle of image security",
+        "rule_id": "AC_K8S_0069",
+        "severity": "MEDIUM",
+        "category": "Infrastructure Security",
+        "resource_name": "controller-manager",
+        "resource_type": "kubernetes_deployment",
+        "file": "config/default/manager_config_patch.yaml",
+        "line": 1
+      },
+      {
+        "rule_name": "imageWithoutDigest",
+        "description": "Image without digest affects the integrity principle of image security",
+        "rule_id": "AC_K8S_0069",
+        "severity": "MEDIUM",
+        "category": "Infrastructure Security",
+        "resource_name": "redis-operator",
+        "resource_type": "kubernetes_deployment",
+        "file": "config/manager/manager.yaml",
+        "line": 2
+      }
+    ],
+    "skipped_violations": null,
+    "scan_summary": {
+      "file/folder": "/home/vagrant/Pomegranate-suite/apps/redis-operator",
+      "iac_type": "docker,k8s",
+      "scanned_at": "2022-11-13 19:59:05.875178076 +0000 UTC",
+      "policies_validated": 64,
+      "violated_policies": 35,
+      "low": 8,
+      "medium": 22,
+      "high": 5
+    }
+  }
+}

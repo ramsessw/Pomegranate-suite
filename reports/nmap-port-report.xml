@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Sun Nov 13 19:58:09 2022 as: nmap -sV -p 1-65535 -oX /home/vagrant/Pomegranate-suite//reports/nmap-port-report.xml 10.244.223.151 -->
+<nmaprun scanner="nmap" args="nmap -sV -p 1-65535 -oX /home/vagrant/Pomegranate-suite//reports/nmap-port-report.xml 10.244.223.151" start="1668369489" startstr="Sun Nov 13 19:58:09 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1668369491" endtime="1668369506"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="10.244.223.151" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65533">
+<extrareasons reason="conn-refused" count="65533"/>
+</extraports>
+<port protocol="tcp" portid="8080"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Golang net/http server" extrainfo="Go-IPFS json-rpc or InfluxDB API" method="probed" conf="10"><cpe>cpe:/a:protocol_labs:go-ipfs</cpe></service></port>
+<port protocol="tcp" portid="8081"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Golang net/http server" extrainfo="Go-IPFS json-rpc or InfluxDB API" method="probed" conf="10"><cpe>cpe:/a:protocol_labs:go-ipfs</cpe></service></port>
+</ports>
+<times srtt="525" rttvar="269" to="100000"/>
+</host>
+<runstats><finished time="1668369506" timestr="Sun Nov 13 19:58:26 2022" elapsed="16.98" summary="Nmap done at Sun Nov 13 19:58:26 2022; 1 IP address (1 host up) scanned in 16.98 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
