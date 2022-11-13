@@ -1,3 +1,6 @@
 [submodule "apps/redis-operator"]
 	path = apps/redis-operator
 	url = https://github.com/OT-CONTAINER-KIT/redis-operator.git
+[submodule "tools/docker-bench-security"]
+	path = tools/docker-bench-security
+	url = https://github.com/docker/docker-bench-security.git
