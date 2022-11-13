@@ -24,7 +24,6 @@ Please check following reports to apply security practises:
 
 | Report       | Id                |
 |--------------|-------------------|
-
 |./reports/terrascan-report.json|S{3, 13}|
 |./reports/kube_bench_report|S{4, 5, 7, 10, 14}|
 |./reports/kube_hunter_report|S{9, 12, 5, 15}|
