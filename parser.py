@@ -2,6 +2,7 @@ import json
 import collections
 import xml.etree.ElementTree as ET
 import json
+from collections import OrderedDict
 
 Number_of_Practises = 18
 
@@ -31,7 +32,7 @@ policy_match_kubehunter = {2: ['KHV044'],
                            5: ['KHV005', 'KHV050'],
                            6: ['KHV007'],
                            8: ['KHV031', 'KHV032', 'KHV033', 'KHV034'],
-                           9: ['KHV002'],
+                           # 9: ['KHV002'],
                            11: ['KHV052'],
                            12: ['KHV002'],
                            13: ['All'],
@@ -49,16 +50,25 @@ policy_match_trivy = [1, 2, 3]
 intential_open_ports = ['8080']
 
 
+class Output:
+    def __init__(self, title, desc, severity, source):
+        self.title = title
+        self.desc = desc
+        self.severity = severity
+        self.source = source
+
+
 class Results:
     def __init__(self):
         self.final_results = collections.defaultdict(dict)
-        self.docs = collections.defaultdict(set)
+        self.out = OrderedDict()
         for i in range(1, Number_of_Practises+1):
             self.final_results[i]['status'] = False
+            self.out[i] = []
 
-    def set_weakness(self, id, doc):
+    def set_weakness(self, id, out):
         self.final_results[id]['status'] = True
-        self.docs[doc].add(id)
+        self.out[id].append(out)
 
     def get_results(self):
         for i in self.final_results:
@@ -67,8 +77,14 @@ class Results:
     def get_result(self, id):
         return self.final_results[id]['status']
 
-    def get_docs(self):
-        return self.docs
+    def writeOutput(self):
+        for i in range(1, Number_of_Practises+1):
+            if self.out[i]:
+                j = json.dumps(self.out[i], default=lambda o: o.__dict__,
+                               sort_keys=True,  indent=4)
+                with open('./output/S' + str(i) + '.json', 'w') as f:
+                    f.write(j)
+                f.close()
 
 
 def matchingKeys(dictionary, id):
@@ -82,7 +98,9 @@ def parse_terrascan(res):
     for v in report['results']['violations']:
         for key, value in policy_match_terrascan.items():
             if value in v['rule_id']:
-                res.set_weakness(key, f.name)
+                o = Output(
+                    v['rule_name'], v['description'], v['severity'], f.name)
+                res.set_weakness(key, o)
 
     f.close()
 
@@ -94,19 +112,21 @@ def parse_dockerbenchsec(res):
     for v in report['tests'][0]['results']:
         if v['result'] == 'WARN':
             for i in matchingKeys(policy_match_dockerbench, report['tests'][0]['id']):
-                res.set_weakness(i, f.name)
+                o = Output(
+                    report['tests'][0]['desc'], v['desc'], v['result'], f.name)
+                res.set_weakness(i, o)
 
     f.close()
 
 
 def parse_kubebench(res):
 
-    def set(id):
+    def set(id, o):
         for key, value in policy_match_kubebench.items():
             if id.startswith(value):
-                res.set_weakness(key, f.name)
+                res.set_weakness(key, o)
                 return
-        res.set_weakness(14, f.name)
+        res.set_weakness(14, o)
 
     with open('./reports/kube_bench_report') as f:
         for line in f:
@@ -114,20 +134,34 @@ def parse_kubebench(res):
                 split = line.split(' ')
                 id = split[1]
                 status = split[0][1:5]
-                if status == 'FAIL' or status == 'WARN':
-                    set(id)
+                if status == 'FAIL':
+                    o = Output(
+                        line[7:], line[7:], 'MEDIUM', f.name)
+                    set(id, o)
 
     f.close()
 
 
 def parse_kubehunter(res):
     with open('./reports/kube_hunter_report') as f:
+        id, desc, title = '', '', ''
         for line in f:
-            if 'KHV' in line:
+            if line[0] == '+':
+                if id != '':
+                    desc = " ".join(desc.split())
+                    title = " ".join(title.split())
+                    for i in matchingKeys(policy_match_kubehunter, id):
+                        o = Output(
+                            title, desc, 'MEDIUM', f.name)
+                        res.set_weakness(i, o)
+                    id, desc, title = '', '', ''
+            elif 'KHV' in line:
                 id = line[2:8]
-                for i in matchingKeys(policy_match_kubehunter, id):
-                    res.set_weakness(i, f.name)
+                desc, title = '', ''
 
+            if len(line) >= 125:
+                desc += line[80:101]
+                title += line[57:78]
     f.close()
 
 
@@ -137,8 +171,10 @@ def parse_nmap_port(res):
     root = tree.getroot()
     for x in root.iter('port'):
         if not x.attrib['portid'] in intential_open_ports:
+            o = Output(
+                'Open ports', 'Disable port if it is not intentionally used:' + x.attrib['portid'], 'HIGH', file_name)
             res.set_weakness(
-                policy_match_nmap_port, file_name)
+                policy_match_nmap_port, o)
 
 
 def parse_nmap_ssl(res):
@@ -147,23 +183,33 @@ def parse_nmap_ssl(res):
     root = tree.getroot()
     for x in root.iter('service'):
         if x.attrib['name'] == 'http':
+            o = Output(
+                'Non-Secured Service-to-Service Communications', 'Use secure SSL/TLS Algorithms for ' + x.attrib['product'], 'HIGH', file_name)
             res.set_weakness(
-                policy_match_nmap_ssl, file_name)
+                policy_match_nmap_ssl, o)
 
 
 def parse_trivy(res):
     with open('./reports/trivy-results.json', encoding="utf8") as f:
         report = json.load(f)
 
-    if report['Vulnerabilities'][0]['Results']:
-        res.set_weakness(policy_match_trivy[0], f.name)
+    try:
+        for j in report['Vulnerabilities'][0]['Results']:
+            for k in j['Vulnerabilities']:
+                o = Output(
+                    k['VulnerabilityID'], k['Description'], k['Severity'], f.name)
+                res.set_weakness(policy_match_trivy[0], o)
+    except KeyError:
+        pass
 
     for i in report['Misconfigurations']:
         try:
             for j in i['Results']:
                 if j['Type'] == 'kubernetes':
-                    if j['MisconfSummary']['Failures'] > 0:
-                        res.set_weakness(policy_match_trivy[1], f.name)
+                    for k in j['Misconfigurations']:
+                        o = Output(
+                            k['Title'], k['Description'], k['Severity'], f.name)
+                        res.set_weakness(policy_match_trivy[1], o)
         except KeyError:
             pass
 
@@ -171,8 +217,10 @@ def parse_trivy(res):
         try:
             for j in i['Results']:
                 if j['Target'] == 'Dockerfile':
-                    if j['MisconfSummary']['Failures'] > 0:
-                        res.set_weakness(policy_match_trivy[2], f.name)
+                    for k in j['Misconfigurations']:
+                        o = Output(
+                            k['Title'], k['Description'], k['Severity'], f.name)
+                        res.set_weakness(policy_match_trivy[2], o)
         except KeyError:
             pass
 
@@ -186,7 +234,9 @@ def parse_zap(res):
     for v in report['site'][0]['alerts']:
         for key, value in policy_match_zap.items():
             if value == v['pluginid'] or value == 'All':
-                res.set_weakness(key, f.name)
+                o = Output(
+                    v['name'], v['desc'], v['riskdesc'], f.name)
+                res.set_weakness(key, o)
 
     f.close()
 
@@ -195,7 +245,6 @@ def create_result_file(res):
     with open(f"./summary.md", "w") as f:
         with open('./template_table') as t:
             id = 1
-            docs = {}
             for num, line in enumerate(t, 1):
                 if num <= 2 or id > Number_of_Practises:
                     f.write(line)
@@ -210,10 +259,6 @@ def create_result_file(res):
                     f"{line[:-1]}{status}|\n")
                 id += 1
 
-        for key, value in res.get_docs().items():
-            f.write(
-                f"|{key}|S{value}|\n")
-
 
 def main():
     res = Results()
@@ -226,9 +271,9 @@ def main():
     parse_dockerbenchsec(res)
     parse_zap(res)
     # res.get_results()
+    res.writeOutput()
     create_result_file(res)
 
 
 if __name__ == "__main__":
     main()
-
