@@ -19,8 +19,3 @@
 |            |                                                           | Disable exposing unnecessary open-ports externally                  | S17    |
 |            | Non-Secured Service-to-Service Communications             | Use Mutual TLS and/or JSON Web Token (JWT)                          | S18    |
 
-
-Please check following reports to apply security practises:  
-
-| Report       | Id                |
-|--------------|-------------------|
