@@ -1,0 +1,200 @@
+[
+    {
+        "desc": "Memory Request Not Set in config file.",
+        "severity": "Medium",
+        "source": "./reports/terrascan-report.json",
+        "title": "MemoryRequestsCheck"
+    },
+    {
+        "desc": "Memory Request Not Set in config file.",
+        "severity": "Medium",
+        "source": "./reports/terrascan-report.json",
+        "title": "MemoryRequestsCheck"
+    },
+    {
+        "desc": "Memory Limits Not Set in config file.",
+        "severity": "Medium",
+        "source": "./reports/terrascan-report.json",
+        "title": "MemorylimitsCheck"
+    },
+    {
+        "desc": "Memory Limits Not Set in config file.",
+        "severity": "Medium",
+        "source": "./reports/terrascan-report.json",
+        "title": "MemorylimitsCheck"
+    },
+    {
+        "desc": "Default seccomp profile not enabled will make the container to make non-essential system calls",
+        "severity": "MEDIUM",
+        "source": "./reports/terrascan-report.json",
+        "title": "secCompProfile"
+    },
+    {
+        "desc": "Default seccomp profile not enabled will make the container to make non-essential system calls",
+        "severity": "MEDIUM",
+        "source": "./reports/terrascan-report.json",
+        "title": "secCompProfile"
+    },
+    {
+        "desc": "Default seccomp profile not enabled will make the container to make non-essential system calls",
+        "severity": "MEDIUM",
+        "source": "./reports/terrascan-report.json",
+        "title": "secCompProfile"
+    },
+    {
+        "desc": "No liveness probe will ensure there is no recovery in case of unexpected errors",
+        "severity": "LOW",
+        "source": "./reports/terrascan-report.json",
+        "title": "nolivenessProbe"
+    },
+    {
+        "desc": "No liveness probe will ensure there is no recovery in case of unexpected errors",
+        "severity": "LOW",
+        "source": "./reports/terrascan-report.json",
+        "title": "nolivenessProbe"
+    },
+    {
+        "desc": "Container images with readOnlyRootFileSystem set as false mounts the container root file system with write permissions",
+        "severity": "MEDIUM",
+        "source": "./reports/terrascan-report.json",
+        "title": "readOnlyFileSystem"
+    },
+    {
+        "desc": "Container images with readOnlyRootFileSystem set as false mounts the container root file system with write permissions",
+        "severity": "MEDIUM",
+        "source": "./reports/terrascan-report.json",
+        "title": "readOnlyFileSystem"
+    },
+    {
+        "desc": "Container images with readOnlyRootFileSystem set as false mounts the container root file system with write permissions",
+        "severity": "MEDIUM",
+        "source": "./reports/terrascan-report.json",
+        "title": "readOnlyFileSystem"
+    },
+    {
+        "desc": "CPU Request Not Set in config file.",
+        "severity": "Medium",
+        "source": "./reports/terrascan-report.json",
+        "title": "CpuRequestsCheck"
+    },
+    {
+        "desc": "CPU Request Not Set in config file.",
+        "severity": "Medium",
+        "source": "./reports/terrascan-report.json",
+        "title": "CpuRequestsCheck"
+    },
+    {
+        "desc": "Nodeport service can expose the worker nodes as they have public interface",
+        "severity": "LOW",
+        "source": "./reports/terrascan-report.json",
+        "title": "nodePort"
+    },
+    {
+        "desc": "Nodeport service can expose the worker nodes as they have public interface",
+        "severity": "LOW",
+        "source": "./reports/terrascan-report.json",
+        "title": "nodePort"
+    },
+    {
+        "desc": "Nodeport service can expose the worker nodes as they have public interface",
+        "severity": "LOW",
+        "source": "./reports/terrascan-report.json",
+        "title": "nodePort"
+    },
+    {
+        "desc": "Minimize Admission of Root Containers",
+        "severity": "HIGH",
+        "source": "./reports/terrascan-report.json",
+        "title": "runAsNonRootCheck"
+    },
+    {
+        "desc": "Minimize Admission of Root Containers",
+        "severity": "HIGH",
+        "source": "./reports/terrascan-report.json",
+        "title": "runAsNonRootCheck"
+    },
+    {
+        "desc": "Minimize Admission of Root Containers",
+        "severity": "HIGH",
+        "source": "./reports/terrascan-report.json",
+        "title": "runAsNonRootCheck"
+    },
+    {
+        "desc": "Apply Security Context to Your Pods and Containers",
+        "severity": "MEDIUM",
+        "source": "./reports/terrascan-report.json",
+        "title": "securityContextUsed"
+    },
+    {
+        "desc": "Apply Security Context to Your Pods and Containers",
+        "severity": "MEDIUM",
+        "source": "./reports/terrascan-report.json",
+        "title": "securityContextUsed"
+    },
+    {
+        "desc": "No owner for namespace affects the operations",
+        "severity": "LOW",
+        "source": "./reports/terrascan-report.json",
+        "title": "noOwnerLabel"
+    },
+    {
+        "desc": "CPU Limits Not Set in config file.",
+        "severity": "Medium",
+        "source": "./reports/terrascan-report.json",
+        "title": "CpulimitsCheck"
+    },
+    {
+        "desc": "CPU Limits Not Set in config file.",
+        "severity": "Medium",
+        "source": "./reports/terrascan-report.json",
+        "title": "CpulimitsCheck"
+    },
+    {
+        "desc": "No readiness probe will affect automatic recovery in case of unexpected errors",
+        "severity": "LOW",
+        "source": "./reports/terrascan-report.json",
+        "title": "noReadinessProbe"
+    },
+    {
+        "desc": "No readiness probe will affect automatic recovery in case of unexpected errors",
+        "severity": "LOW",
+        "source": "./reports/terrascan-report.json",
+        "title": "noReadinessProbe"
+    },
+    {
+        "desc": "AppArmor profile not set to default or custom profile will make the container vulnerable to kernel level threats",
+        "severity": "MEDIUM",
+        "source": "./reports/terrascan-report.json",
+        "title": "appArmorProfile"
+    },
+    {
+        "desc": "Containers Should Not Run with AllowPrivilegeEscalation",
+        "severity": "HIGH",
+        "source": "./reports/terrascan-report.json",
+        "title": "privilegeEscalationCheck"
+    },
+    {
+        "desc": "Containers Should Not Run with AllowPrivilegeEscalation",
+        "severity": "HIGH",
+        "source": "./reports/terrascan-report.json",
+        "title": "privilegeEscalationCheck"
+    },
+    {
+        "desc": "Image without digest affects the integrity principle of image security",
+        "severity": "MEDIUM",
+        "source": "./reports/terrascan-report.json",
+        "title": "imageWithoutDigest"
+    },
+    {
+        "desc": "Image without digest affects the integrity principle of image security",
+        "severity": "MEDIUM",
+        "source": "./reports/terrascan-report.json",
+        "title": "imageWithoutDigest"
+    },
+    {
+        "desc": "Image without digest affects the integrity principle of image security",
+        "severity": "MEDIUM",
+        "source": "./reports/terrascan-report.json",
+        "title": "imageWithoutDigest"
+    }
+]

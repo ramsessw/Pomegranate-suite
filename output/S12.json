@@ -1,0 +1,8 @@
+[
+    {
+        "desc": "The kubernetes version could be obtained from the /version endpoint",
+        "severity": "MEDIUM",
+        "source": "./reports/kube_hunter_report",
+        "title": "K8s Version Disclosure"
+    }
+]

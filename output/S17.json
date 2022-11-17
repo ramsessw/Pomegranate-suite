@@ -1,0 +1,8 @@
+[
+    {
+        "desc": "Disable port if it is not intentionally used:8081",
+        "severity": "HIGH",
+        "source": "nmap-port-report.xml",
+        "title": "Open ports"
+    }
+]

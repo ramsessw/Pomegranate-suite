@@ -1,0 +1,38 @@
+[
+    {
+        "desc": "1.2.6 Ensure that the --kubelet-certificate-authority argument is set as appropriate (Automated)\n",
+        "severity": "MEDIUM",
+        "source": "./reports/kube_bench_report",
+        "title": "1.2.6 Ensure that the --kubelet-certificate-authority argument is set as appropriate (Automated)\n"
+    },
+    {
+        "desc": "1.2.18 Ensure that the --profiling argument is set to false (Automated)\n",
+        "severity": "MEDIUM",
+        "source": "./reports/kube_bench_report",
+        "title": "1.2.18 Ensure that the --profiling argument is set to false (Automated)\n"
+    },
+    {
+        "desc": "1.2.19 Ensure that the --audit-log-path argument is set (Automated)\n",
+        "severity": "MEDIUM",
+        "source": "./reports/kube_bench_report",
+        "title": "1.2.19 Ensure that the --audit-log-path argument is set (Automated)\n"
+    },
+    {
+        "desc": "1.2.20 Ensure that the --audit-log-maxage argument is set to 30 or as appropriate (Automated)\n",
+        "severity": "MEDIUM",
+        "source": "./reports/kube_bench_report",
+        "title": "1.2.20 Ensure that the --audit-log-maxage argument is set to 30 or as appropriate (Automated)\n"
+    },
+    {
+        "desc": "1.2.21 Ensure that the --audit-log-maxbackup argument is set to 10 or as appropriate (Automated)\n",
+        "severity": "MEDIUM",
+        "source": "./reports/kube_bench_report",
+        "title": "1.2.21 Ensure that the --audit-log-maxbackup argument is set to 10 or as appropriate (Automated)\n"
+    },
+    {
+        "desc": "1.2.22 Ensure that the --audit-log-maxsize argument is set to 100 or as appropriate (Automated)\n",
+        "severity": "MEDIUM",
+        "source": "./reports/kube_bench_report",
+        "title": "1.2.22 Ensure that the --audit-log-maxsize argument is set to 100 or as appropriate (Automated)\n"
+    }
+]

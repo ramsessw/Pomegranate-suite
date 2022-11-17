@@ -1,0 +1,14 @@
+[
+    {
+        "desc": "Use secure SSL/TLS Algorithms for Golang net/http server",
+        "severity": "HIGH",
+        "source": "nmap-ssl-report.xml",
+        "title": "Non-Secured Service-to-Service Communications"
+    },
+    {
+        "desc": "Use secure SSL/TLS Algorithms for Golang net/http server",
+        "severity": "HIGH",
+        "source": "nmap-ssl-report.xml",
+        "title": "Non-Secured Service-to-Service Communications"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "desc": "The API Server port is accessible. Depending on your RBAC settings this could expose access to or control of your cluster.",
+        "severity": "MEDIUM",
+        "source": "./reports/kube_hunter_report",
+        "title": "Access to API using service account token"
+    },
+    {
+        "desc": "Accessing the pod service account token gives an attacker the option to use the server API",
+        "severity": "MEDIUM",
+        "source": "./reports/kube_hunter_report",
+        "title": "Read access to pod's service account token"
+    }
+]

@@ -1,0 +1,1454 @@
+[
+    {
+        "desc": "A program inside the container can elevate its own privileges and run as root, which might give the program control over the container and node.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Process can elevate its own privileges"
+    },
+    {
+        "desc": "The container should drop all default capabilities and add only those that are needed for its execution.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default capabilities not dropped"
+    },
+    {
+        "desc": "'runAsNonRoot' forces the running image to run as a non-root user to ensure least privileges.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs as root user"
+    },
+    {
+        "desc": "An immutable root file system prevents applications from writing to their local disk. This can limit intrusions, as attackers will not be able to tamper with the file system or write foreign executables to disk.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Root file system is not read-only"
+    },
+    {
+        "desc": "Force the container to run with user ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low user ID"
+    },
+    {
+        "desc": "Force the container to run with group ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low group ID"
+    },
+    {
+        "desc": "The RuntimeDefault/Localhost seccomp profile must be required, or allow specific additional profiles.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default Seccomp profile not set"
+    },
+    {
+        "desc": "Containers must drop ALL capabilities, and are only permitted to add back the NET_BIND_SERVICE capability.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Container capabilities must only include NET_BIND_SERVICE"
+    },
+    {
+        "desc": "A program inside the container can elevate its own privileges and run as root, which might give the program control over the container and node.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Process can elevate its own privileges"
+    },
+    {
+        "desc": "Enforcing CPU limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "CPU not limited"
+    },
+    {
+        "desc": "'runAsNonRoot' forces the running image to run as a non-root user to ensure least privileges.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs as root user"
+    },
+    {
+        "desc": "An immutable root file system prevents applications from writing to their local disk. This can limit intrusions, as attackers will not be able to tamper with the file system or write foreign executables to disk.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Root file system is not read-only"
+    },
+    {
+        "desc": "Enforcing memory limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory not limited"
+    },
+    {
+        "desc": "Force the container to run with user ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low user ID"
+    },
+    {
+        "desc": "Force the container to run with group ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low group ID"
+    },
+    {
+        "desc": "Adding NET_RAW or capabilities beyond the default set must be disallowed.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Non-default capabilities added"
+    },
+    {
+        "desc": "HostPorts should be disallowed, or at minimum restricted to a known list.",
+        "severity": "HIGH",
+        "source": "./reports/trivy-results.json",
+        "title": "Access to host ports"
+    },
+    {
+        "desc": "The RuntimeDefault/Localhost seccomp profile must be required, or allow specific additional profiles.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default Seccomp profile not set"
+    },
+    {
+        "desc": "A program inside the container can elevate its own privileges and run as root, which might give the program control over the container and node.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Process can elevate its own privileges"
+    },
+    {
+        "desc": "The container should drop all default capabilities and add only those that are needed for its execution.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default capabilities not dropped"
+    },
+    {
+        "desc": "Enforcing CPU limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "CPU not limited"
+    },
+    {
+        "desc": "'runAsNonRoot' forces the running image to run as a non-root user to ensure least privileges.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs as root user"
+    },
+    {
+        "desc": "An immutable root file system prevents applications from writing to their local disk. This can limit intrusions, as attackers will not be able to tamper with the file system or write foreign executables to disk.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Root file system is not read-only"
+    },
+    {
+        "desc": "When containers have resource requests specified, the scheduler can make better decisions about which nodes to place pods on, and how to deal with resource contention.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "CPU requests not specified"
+    },
+    {
+        "desc": "When containers have memory requests specified, the scheduler can make better decisions about which nodes to place pods on, and how to deal with resource contention.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory requests not specified"
+    },
+    {
+        "desc": "Enforcing memory limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory not limited"
+    },
+    {
+        "desc": "Force the container to run with user ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low user ID"
+    },
+    {
+        "desc": "Force the container to run with group ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low group ID"
+    },
+    {
+        "desc": "The RuntimeDefault/Localhost seccomp profile must be required, or allow specific additional profiles.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default Seccomp profile not set"
+    },
+    {
+        "desc": "ensure that User pods are not placed in kube-system namespace",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "User Pods should not be placed in kube-system namespace"
+    },
+    {
+        "desc": "Containers must drop ALL capabilities, and are only permitted to add back the NET_BIND_SERVICE capability.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Container capabilities must only include NET_BIND_SERVICE"
+    },
+    {
+        "desc": "The container should drop all default capabilities and add only those that are needed for its execution.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default capabilities not dropped"
+    },
+    {
+        "desc": "Sharing the host\u2019s network namespace permits processes in the pod to communicate with processes bound to the host\u2019s loopback adapter.",
+        "severity": "HIGH",
+        "source": "./reports/trivy-results.json",
+        "title": "Access to host network"
+    },
+    {
+        "desc": "Enforcing CPU limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "CPU not limited"
+    },
+    {
+        "desc": "An immutable root file system prevents applications from writing to their local disk. This can limit intrusions, as attackers will not be able to tamper with the file system or write foreign executables to disk.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Root file system is not read-only"
+    },
+    {
+        "desc": "When containers have resource requests specified, the scheduler can make better decisions about which nodes to place pods on, and how to deal with resource contention.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "CPU requests not specified"
+    },
+    {
+        "desc": "When containers have memory requests specified, the scheduler can make better decisions about which nodes to place pods on, and how to deal with resource contention.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory requests not specified"
+    },
+    {
+        "desc": "Enforcing memory limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory not limited"
+    },
+    {
+        "desc": "Force the container to run with user ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low user ID"
+    },
+    {
+        "desc": "Force the container to run with group ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low group ID"
+    },
+    {
+        "desc": "HostPorts should be disallowed, or at minimum restricted to a known list.",
+        "severity": "HIGH",
+        "source": "./reports/trivy-results.json",
+        "title": "Access to host ports"
+    },
+    {
+        "desc": "The RuntimeDefault/Localhost seccomp profile must be required, or allow specific additional profiles.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default Seccomp profile not set"
+    },
+    {
+        "desc": "ensure that User pods are not placed in kube-system namespace",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "User Pods should not be placed in kube-system namespace"
+    },
+    {
+        "desc": "Containers must drop ALL capabilities, and are only permitted to add back the NET_BIND_SERVICE capability.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Container capabilities must only include NET_BIND_SERVICE"
+    },
+    {
+        "desc": "Enforcing CPU limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "CPU not limited"
+    },
+    {
+        "desc": "'runAsNonRoot' forces the running image to run as a non-root user to ensure least privileges.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs as root user"
+    },
+    {
+        "desc": "Force the container to run with user ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low user ID"
+    },
+    {
+        "desc": "Force the container to run with group ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low group ID"
+    },
+    {
+        "desc": "Adding NET_RAW or capabilities beyond the default set must be disallowed.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Non-default capabilities added"
+    },
+    {
+        "desc": "The RuntimeDefault/Localhost seccomp profile must be required, or allow specific additional profiles.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default Seccomp profile not set"
+    },
+    {
+        "desc": "ensure that User pods are not placed in kube-system namespace",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "User Pods should not be placed in kube-system namespace"
+    },
+    {
+        "desc": "Containers must drop ALL capabilities, and are only permitted to add back the NET_BIND_SERVICE capability.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Container capabilities must only include NET_BIND_SERVICE"
+    },
+    {
+        "desc": "The container should drop all default capabilities and add only those that are needed for its execution.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default capabilities not dropped"
+    },
+    {
+        "desc": "Enforcing CPU limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "CPU not limited"
+    },
+    {
+        "desc": "'runAsNonRoot' forces the running image to run as a non-root user to ensure least privileges.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs as root user"
+    },
+    {
+        "desc": "When containers have resource requests specified, the scheduler can make better decisions about which nodes to place pods on, and how to deal with resource contention.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "CPU requests not specified"
+    },
+    {
+        "desc": "When containers have memory requests specified, the scheduler can make better decisions about which nodes to place pods on, and how to deal with resource contention.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory requests not specified"
+    },
+    {
+        "desc": "Enforcing memory limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory not limited"
+    },
+    {
+        "desc": "Force the container to run with user ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low user ID"
+    },
+    {
+        "desc": "Force the container to run with group ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low group ID"
+    },
+    {
+        "desc": "Containers must drop ALL capabilities, and are only permitted to add back the NET_BIND_SERVICE capability.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Container capabilities must only include NET_BIND_SERVICE"
+    },
+    {
+        "desc": "The container should drop all default capabilities and add only those that are needed for its execution.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default capabilities not dropped"
+    },
+    {
+        "desc": "Enforcing CPU limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "CPU not limited"
+    },
+    {
+        "desc": "'runAsNonRoot' forces the running image to run as a non-root user to ensure least privileges.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs as root user"
+    },
+    {
+        "desc": "When containers have resource requests specified, the scheduler can make better decisions about which nodes to place pods on, and how to deal with resource contention.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "CPU requests not specified"
+    },
+    {
+        "desc": "When containers have memory requests specified, the scheduler can make better decisions about which nodes to place pods on, and how to deal with resource contention.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory requests not specified"
+    },
+    {
+        "desc": "Enforcing memory limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory not limited"
+    },
+    {
+        "desc": "Force the container to run with user ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low user ID"
+    },
+    {
+        "desc": "Force the container to run with group ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low group ID"
+    },
+    {
+        "desc": "The RuntimeDefault/Localhost seccomp profile must be required, or allow specific additional profiles.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default Seccomp profile not set"
+    },
+    {
+        "desc": "Containers must drop ALL capabilities, and are only permitted to add back the NET_BIND_SERVICE capability.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Container capabilities must only include NET_BIND_SERVICE"
+    },
+    {
+        "desc": "A program inside the container can elevate its own privileges and run as root, which might give the program control over the container and node.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Process can elevate its own privileges"
+    },
+    {
+        "desc": "The container should drop all default capabilities and add only those that are needed for its execution.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default capabilities not dropped"
+    },
+    {
+        "desc": "Sharing the host\u2019s network namespace permits processes in the pod to communicate with processes bound to the host\u2019s loopback adapter.",
+        "severity": "HIGH",
+        "source": "./reports/trivy-results.json",
+        "title": "Access to host network"
+    },
+    {
+        "desc": "Enforcing CPU limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "CPU not limited"
+    },
+    {
+        "desc": "'runAsNonRoot' forces the running image to run as a non-root user to ensure least privileges.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs as root user"
+    },
+    {
+        "desc": "An immutable root file system prevents applications from writing to their local disk. This can limit intrusions, as attackers will not be able to tamper with the file system or write foreign executables to disk.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Root file system is not read-only"
+    },
+    {
+        "desc": "Enforcing memory limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory not limited"
+    },
+    {
+        "desc": "Force the container to run with user ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low user ID"
+    },
+    {
+        "desc": "Force the container to run with group ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low group ID"
+    },
+    {
+        "desc": "HostPath volumes must be forbidden.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "hostPath volumes mounted"
+    },
+    {
+        "desc": "Containers must drop ALL capabilities, and are only permitted to add back the NET_BIND_SERVICE capability.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Container capabilities must only include NET_BIND_SERVICE"
+    },
+    {
+        "desc": "Disable anonymous requests to the API server.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Ensure that the --anonymous-auth argument is set to false"
+    },
+    {
+        "desc": "Verify kubelet's certificate before establishing connection.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Ensure that the --kubelet-certificate-authority argument is set as appropriate"
+    },
+    {
+        "desc": "Limit the rate at which the API server accepts requests.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Ensure that the admission control plugin EventRateLimit is set"
+    },
+    {
+        "desc": "The SecurityContextDeny admission controller can be used to deny pods which make use of some SecurityContext fields which could allow for privilege escalation in the cluster. This should be used where PodSecurityPolicy is not in place within the cluster.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Ensure that the admission control plugin SecurityContextDeny is set if PodSecurityPolicy is not used"
+    },
+    {
+        "desc": "Disable profiling, if not needed.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Ensure that the --profiling argument is set to false"
+    },
+    {
+        "desc": "Enable auditing on the Kubernetes API Server and set the desired audit log path.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Ensure that the --audit-log-path argument is set"
+    },
+    {
+        "desc": "Retain the logs for at least 30 days or as appropriate.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Ensure that the --audit-log-maxage argument is set to 30 or as appropriate"
+    },
+    {
+        "desc": "Retain 10 or an appropriate number of old log files.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Ensure that the --audit-log-maxbackup argument is set to 10 or as appropriate"
+    },
+    {
+        "desc": "Rotate log files on reaching 100 MB or as appropriate.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Ensure that the --audit-log-maxsize argument is set to 100 or as appropriate"
+    },
+    {
+        "desc": "Setup TLS connection on the API server.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Ensure that the --client-ca-file argument is set as appropriate"
+    },
+    {
+        "desc": "etcd should be configured to make use of TLS encryption for client connections.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Ensure that the --etcd-cafile argument is set as appropriate"
+    },
+    {
+        "desc": "A program inside the container can elevate its own privileges and run as root, which might give the program control over the container and node.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Process can elevate its own privileges"
+    },
+    {
+        "desc": "Always pull images.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Ensure that the admission control plugin AlwaysPullImages is set"
+    },
+    {
+        "desc": "The container should drop all default capabilities and add only those that are needed for its execution.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default capabilities not dropped"
+    },
+    {
+        "desc": "Sharing the host\u2019s network namespace permits processes in the pod to communicate with processes bound to the host\u2019s loopback adapter.",
+        "severity": "HIGH",
+        "source": "./reports/trivy-results.json",
+        "title": "Access to host network"
+    },
+    {
+        "desc": "Enforcing CPU limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "CPU not limited"
+    },
+    {
+        "desc": "'runAsNonRoot' forces the running image to run as a non-root user to ensure least privileges.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs as root user"
+    },
+    {
+        "desc": "An immutable root file system prevents applications from writing to their local disk. This can limit intrusions, as attackers will not be able to tamper with the file system or write foreign executables to disk.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Root file system is not read-only"
+    },
+    {
+        "desc": "When containers have memory requests specified, the scheduler can make better decisions about which nodes to place pods on, and how to deal with resource contention.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory requests not specified"
+    },
+    {
+        "desc": "Enforcing memory limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory not limited"
+    },
+    {
+        "desc": "Force the container to run with user ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low user ID"
+    },
+    {
+        "desc": "Force the container to run with group ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low group ID"
+    },
+    {
+        "desc": "HostPath volumes must be forbidden.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "hostPath volumes mounted"
+    },
+    {
+        "desc": "Containers must drop ALL capabilities, and are only permitted to add back the NET_BIND_SERVICE capability.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Container capabilities must only include NET_BIND_SERVICE"
+    },
+    {
+        "desc": "Activate garbage collector on pod termination, as appropriate.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Ensure that the --terminated-pod-gc-threshold argument is set as appropriate"
+    },
+    {
+        "desc": "Disable profiling, if not needed.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Ensure that the --profiling argument is set to false"
+    },
+    {
+        "desc": "Enable kubelet server certificate rotation on controller-manager.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Ensure that the RotateKubeletServerCertificate argument is set to true"
+    },
+    {
+        "desc": "A program inside the container can elevate its own privileges and run as root, which might give the program control over the container and node.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Process can elevate its own privileges"
+    },
+    {
+        "desc": "The container should drop all default capabilities and add only those that are needed for its execution.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default capabilities not dropped"
+    },
+    {
+        "desc": "Sharing the host\u2019s network namespace permits processes in the pod to communicate with processes bound to the host\u2019s loopback adapter.",
+        "severity": "HIGH",
+        "source": "./reports/trivy-results.json",
+        "title": "Access to host network"
+    },
+    {
+        "desc": "Enforcing CPU limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "CPU not limited"
+    },
+    {
+        "desc": "'runAsNonRoot' forces the running image to run as a non-root user to ensure least privileges.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs as root user"
+    },
+    {
+        "desc": "An immutable root file system prevents applications from writing to their local disk. This can limit intrusions, as attackers will not be able to tamper with the file system or write foreign executables to disk.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Root file system is not read-only"
+    },
+    {
+        "desc": "When containers have memory requests specified, the scheduler can make better decisions about which nodes to place pods on, and how to deal with resource contention.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory requests not specified"
+    },
+    {
+        "desc": "Enforcing memory limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory not limited"
+    },
+    {
+        "desc": "Force the container to run with user ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low user ID"
+    },
+    {
+        "desc": "Force the container to run with group ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low group ID"
+    },
+    {
+        "desc": "HostPath volumes must be forbidden.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "hostPath volumes mounted"
+    },
+    {
+        "desc": "Containers must drop ALL capabilities, and are only permitted to add back the NET_BIND_SERVICE capability.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Container capabilities must only include NET_BIND_SERVICE"
+    },
+    {
+        "desc": "Disable profiling, if not needed.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Ensure that the --profiling argument is set to false"
+    },
+    {
+        "desc": "A program inside the container can elevate its own privileges and run as root, which might give the program control over the container and node.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Process can elevate its own privileges"
+    },
+    {
+        "desc": "The container should drop all default capabilities and add only those that are needed for its execution.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default capabilities not dropped"
+    },
+    {
+        "desc": "Sharing the host\u2019s network namespace permits processes in the pod to communicate with processes bound to the host\u2019s loopback adapter.",
+        "severity": "HIGH",
+        "source": "./reports/trivy-results.json",
+        "title": "Access to host network"
+    },
+    {
+        "desc": "Enforcing CPU limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "CPU not limited"
+    },
+    {
+        "desc": "'runAsNonRoot' forces the running image to run as a non-root user to ensure least privileges.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs as root user"
+    },
+    {
+        "desc": "An immutable root file system prevents applications from writing to their local disk. This can limit intrusions, as attackers will not be able to tamper with the file system or write foreign executables to disk.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Root file system is not read-only"
+    },
+    {
+        "desc": "When containers have memory requests specified, the scheduler can make better decisions about which nodes to place pods on, and how to deal with resource contention.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory requests not specified"
+    },
+    {
+        "desc": "Enforcing memory limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory not limited"
+    },
+    {
+        "desc": "Force the container to run with user ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low user ID"
+    },
+    {
+        "desc": "Force the container to run with group ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low group ID"
+    },
+    {
+        "desc": "HostPath volumes must be forbidden.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "hostPath volumes mounted"
+    },
+    {
+        "desc": "Containers must drop ALL capabilities, and are only permitted to add back the NET_BIND_SERVICE capability.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Container capabilities must only include NET_BIND_SERVICE"
+    },
+    {
+        "desc": "A program inside the container can elevate its own privileges and run as root, which might give the program control over the container and node.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Process can elevate its own privileges"
+    },
+    {
+        "desc": "The container should drop all default capabilities and add only those that are needed for its execution.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default capabilities not dropped"
+    },
+    {
+        "desc": "Sharing the host\u2019s network namespace permits processes in the pod to communicate with processes bound to the host\u2019s loopback adapter.",
+        "severity": "HIGH",
+        "source": "./reports/trivy-results.json",
+        "title": "Access to host network"
+    },
+    {
+        "desc": "Enforcing CPU limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "CPU not limited"
+    },
+    {
+        "desc": "'runAsNonRoot' forces the running image to run as a non-root user to ensure least privileges.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs as root user"
+    },
+    {
+        "desc": "An immutable root file system prevents applications from writing to their local disk. This can limit intrusions, as attackers will not be able to tamper with the file system or write foreign executables to disk.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Root file system is not read-only"
+    },
+    {
+        "desc": "When containers have resource requests specified, the scheduler can make better decisions about which nodes to place pods on, and how to deal with resource contention.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "CPU requests not specified"
+    },
+    {
+        "desc": "When containers have memory requests specified, the scheduler can make better decisions about which nodes to place pods on, and how to deal with resource contention.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory requests not specified"
+    },
+    {
+        "desc": "Enforcing memory limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory not limited"
+    },
+    {
+        "desc": "Force the container to run with user ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low user ID"
+    },
+    {
+        "desc": "Force the container to run with group ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low group ID"
+    },
+    {
+        "desc": "HostPath volumes must be forbidden.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "hostPath volumes mounted"
+    },
+    {
+        "desc": "The RuntimeDefault/Localhost seccomp profile must be required, or allow specific additional profiles.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default Seccomp profile not set"
+    },
+    {
+        "desc": "ensure that Pod specifications disable the secret token being mounted by setting automountServiceAccountToken: false",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Protecting Pod service account tokens"
+    },
+    {
+        "desc": "ensure that User pods are not placed in kube-system namespace",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "User Pods should not be placed in kube-system namespace"
+    },
+    {
+        "desc": "Containers must drop ALL capabilities, and are only permitted to add back the NET_BIND_SERVICE capability.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Container capabilities must only include NET_BIND_SERVICE"
+    },
+    {
+        "desc": "A program inside the container can elevate its own privileges and run as root, which might give the program control over the container and node.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Process can elevate its own privileges"
+    },
+    {
+        "desc": "A program inside the container can elevate its own privileges and run as root, which might give the program control over the container and node.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Process can elevate its own privileges"
+    },
+    {
+        "desc": "A program inside the container can elevate its own privileges and run as root, which might give the program control over the container and node.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Process can elevate its own privileges"
+    },
+    {
+        "desc": "A program inside the container can elevate its own privileges and run as root, which might give the program control over the container and node.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Process can elevate its own privileges"
+    },
+    {
+        "desc": "The container should drop all default capabilities and add only those that are needed for its execution.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default capabilities not dropped"
+    },
+    {
+        "desc": "The container should drop all default capabilities and add only those that are needed for its execution.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default capabilities not dropped"
+    },
+    {
+        "desc": "The container should drop all default capabilities and add only those that are needed for its execution.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default capabilities not dropped"
+    },
+    {
+        "desc": "The container should drop all default capabilities and add only those that are needed for its execution.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default capabilities not dropped"
+    },
+    {
+        "desc": "Sharing the host\u2019s network namespace permits processes in the pod to communicate with processes bound to the host\u2019s loopback adapter.",
+        "severity": "HIGH",
+        "source": "./reports/trivy-results.json",
+        "title": "Access to host network"
+    },
+    {
+        "desc": "Enforcing CPU limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "CPU not limited"
+    },
+    {
+        "desc": "Enforcing CPU limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "CPU not limited"
+    },
+    {
+        "desc": "Enforcing CPU limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "CPU not limited"
+    },
+    {
+        "desc": "Enforcing CPU limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "CPU not limited"
+    },
+    {
+        "desc": "'runAsNonRoot' forces the running image to run as a non-root user to ensure least privileges.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs as root user"
+    },
+    {
+        "desc": "'runAsNonRoot' forces the running image to run as a non-root user to ensure least privileges.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs as root user"
+    },
+    {
+        "desc": "'runAsNonRoot' forces the running image to run as a non-root user to ensure least privileges.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs as root user"
+    },
+    {
+        "desc": "'runAsNonRoot' forces the running image to run as a non-root user to ensure least privileges.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs as root user"
+    },
+    {
+        "desc": "An immutable root file system prevents applications from writing to their local disk. This can limit intrusions, as attackers will not be able to tamper with the file system or write foreign executables to disk.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Root file system is not read-only"
+    },
+    {
+        "desc": "An immutable root file system prevents applications from writing to their local disk. This can limit intrusions, as attackers will not be able to tamper with the file system or write foreign executables to disk.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Root file system is not read-only"
+    },
+    {
+        "desc": "An immutable root file system prevents applications from writing to their local disk. This can limit intrusions, as attackers will not be able to tamper with the file system or write foreign executables to disk.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Root file system is not read-only"
+    },
+    {
+        "desc": "An immutable root file system prevents applications from writing to their local disk. This can limit intrusions, as attackers will not be able to tamper with the file system or write foreign executables to disk.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Root file system is not read-only"
+    },
+    {
+        "desc": "When containers have resource requests specified, the scheduler can make better decisions about which nodes to place pods on, and how to deal with resource contention.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "CPU requests not specified"
+    },
+    {
+        "desc": "When containers have resource requests specified, the scheduler can make better decisions about which nodes to place pods on, and how to deal with resource contention.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "CPU requests not specified"
+    },
+    {
+        "desc": "When containers have resource requests specified, the scheduler can make better decisions about which nodes to place pods on, and how to deal with resource contention.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "CPU requests not specified"
+    },
+    {
+        "desc": "When containers have memory requests specified, the scheduler can make better decisions about which nodes to place pods on, and how to deal with resource contention.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory requests not specified"
+    },
+    {
+        "desc": "When containers have memory requests specified, the scheduler can make better decisions about which nodes to place pods on, and how to deal with resource contention.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory requests not specified"
+    },
+    {
+        "desc": "When containers have memory requests specified, the scheduler can make better decisions about which nodes to place pods on, and how to deal with resource contention.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory requests not specified"
+    },
+    {
+        "desc": "When containers have memory requests specified, the scheduler can make better decisions about which nodes to place pods on, and how to deal with resource contention.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory requests not specified"
+    },
+    {
+        "desc": "Privileged containers share namespaces with the host system and do not offer any security. They should be used exclusively for system containers that require high privileges.",
+        "severity": "HIGH",
+        "source": "./reports/trivy-results.json",
+        "title": "Privileged container"
+    },
+    {
+        "desc": "Privileged containers share namespaces with the host system and do not offer any security. They should be used exclusively for system containers that require high privileges.",
+        "severity": "HIGH",
+        "source": "./reports/trivy-results.json",
+        "title": "Privileged container"
+    },
+    {
+        "desc": "Privileged containers share namespaces with the host system and do not offer any security. They should be used exclusively for system containers that require high privileges.",
+        "severity": "HIGH",
+        "source": "./reports/trivy-results.json",
+        "title": "Privileged container"
+    },
+    {
+        "desc": "Privileged containers share namespaces with the host system and do not offer any security. They should be used exclusively for system containers that require high privileges.",
+        "severity": "HIGH",
+        "source": "./reports/trivy-results.json",
+        "title": "Privileged container"
+    },
+    {
+        "desc": "Enforcing memory limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory not limited"
+    },
+    {
+        "desc": "Enforcing memory limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory not limited"
+    },
+    {
+        "desc": "Enforcing memory limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory not limited"
+    },
+    {
+        "desc": "Enforcing memory limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory not limited"
+    },
+    {
+        "desc": "Force the container to run with user ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low user ID"
+    },
+    {
+        "desc": "Force the container to run with user ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low user ID"
+    },
+    {
+        "desc": "Force the container to run with user ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low user ID"
+    },
+    {
+        "desc": "Force the container to run with user ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low user ID"
+    },
+    {
+        "desc": "Force the container to run with group ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low group ID"
+    },
+    {
+        "desc": "Force the container to run with group ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low group ID"
+    },
+    {
+        "desc": "Force the container to run with group ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low group ID"
+    },
+    {
+        "desc": "Force the container to run with group ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low group ID"
+    },
+    {
+        "desc": "HostPath volumes must be forbidden.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "hostPath volumes mounted"
+    },
+    {
+        "desc": "The RuntimeDefault/Localhost seccomp profile must be required, or allow specific additional profiles.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default Seccomp profile not set"
+    },
+    {
+        "desc": "The RuntimeDefault/Localhost seccomp profile must be required, or allow specific additional profiles.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default Seccomp profile not set"
+    },
+    {
+        "desc": "The RuntimeDefault/Localhost seccomp profile must be required, or allow specific additional profiles.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default Seccomp profile not set"
+    },
+    {
+        "desc": "The RuntimeDefault/Localhost seccomp profile must be required, or allow specific additional profiles.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default Seccomp profile not set"
+    },
+    {
+        "desc": "ensure that User pods are not placed in kube-system namespace",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "User Pods should not be placed in kube-system namespace"
+    },
+    {
+        "desc": "Containers must drop ALL capabilities, and are only permitted to add back the NET_BIND_SERVICE capability.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Container capabilities must only include NET_BIND_SERVICE"
+    },
+    {
+        "desc": "Containers must drop ALL capabilities, and are only permitted to add back the NET_BIND_SERVICE capability.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Container capabilities must only include NET_BIND_SERVICE"
+    },
+    {
+        "desc": "Containers must drop ALL capabilities, and are only permitted to add back the NET_BIND_SERVICE capability.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Container capabilities must only include NET_BIND_SERVICE"
+    },
+    {
+        "desc": "Containers must drop ALL capabilities, and are only permitted to add back the NET_BIND_SERVICE capability.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Container capabilities must only include NET_BIND_SERVICE"
+    },
+    {
+        "desc": "A program inside the container can elevate its own privileges and run as root, which might give the program control over the container and node.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Process can elevate its own privileges"
+    },
+    {
+        "desc": "The container should drop all default capabilities and add only those that are needed for its execution.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default capabilities not dropped"
+    },
+    {
+        "desc": "Sharing the host\u2019s network namespace permits processes in the pod to communicate with processes bound to the host\u2019s loopback adapter.",
+        "severity": "HIGH",
+        "source": "./reports/trivy-results.json",
+        "title": "Access to host network"
+    },
+    {
+        "desc": "Enforcing CPU limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "CPU not limited"
+    },
+    {
+        "desc": "'runAsNonRoot' forces the running image to run as a non-root user to ensure least privileges.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs as root user"
+    },
+    {
+        "desc": "An immutable root file system prevents applications from writing to their local disk. This can limit intrusions, as attackers will not be able to tamper with the file system or write foreign executables to disk.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Root file system is not read-only"
+    },
+    {
+        "desc": "When containers have resource requests specified, the scheduler can make better decisions about which nodes to place pods on, and how to deal with resource contention.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "CPU requests not specified"
+    },
+    {
+        "desc": "When containers have memory requests specified, the scheduler can make better decisions about which nodes to place pods on, and how to deal with resource contention.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory requests not specified"
+    },
+    {
+        "desc": "Privileged containers share namespaces with the host system and do not offer any security. They should be used exclusively for system containers that require high privileges.",
+        "severity": "HIGH",
+        "source": "./reports/trivy-results.json",
+        "title": "Privileged container"
+    },
+    {
+        "desc": "Enforcing memory limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory not limited"
+    },
+    {
+        "desc": "Force the container to run with user ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low user ID"
+    },
+    {
+        "desc": "Force the container to run with group ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low group ID"
+    },
+    {
+        "desc": "HostPath volumes must be forbidden.",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "hostPath volumes mounted"
+    },
+    {
+        "desc": "The RuntimeDefault/Localhost seccomp profile must be required, or allow specific additional profiles.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default Seccomp profile not set"
+    },
+    {
+        "desc": "ensure that User pods are not placed in kube-system namespace",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "User Pods should not be placed in kube-system namespace"
+    },
+    {
+        "desc": "Containers must drop ALL capabilities, and are only permitted to add back the NET_BIND_SERVICE capability.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Container capabilities must only include NET_BIND_SERVICE"
+    },
+    {
+        "desc": "The container should drop all default capabilities and add only those that are needed for its execution.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default capabilities not dropped"
+    },
+    {
+        "desc": "Enforcing CPU limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "CPU not limited"
+    },
+    {
+        "desc": "An immutable root file system prevents applications from writing to their local disk. This can limit intrusions, as attackers will not be able to tamper with the file system or write foreign executables to disk.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Root file system is not read-only"
+    },
+    {
+        "desc": "When containers have resource requests specified, the scheduler can make better decisions about which nodes to place pods on, and how to deal with resource contention.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "CPU requests not specified"
+    },
+    {
+        "desc": "When containers have memory requests specified, the scheduler can make better decisions about which nodes to place pods on, and how to deal with resource contention.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory requests not specified"
+    },
+    {
+        "desc": "Enforcing memory limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory not limited"
+    },
+    {
+        "desc": "Force the container to run with user ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low user ID"
+    },
+    {
+        "desc": "Force the container to run with group ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low group ID"
+    },
+    {
+        "desc": "The RuntimeDefault/Localhost seccomp profile must be required, or allow specific additional profiles.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default Seccomp profile not set"
+    },
+    {
+        "desc": "Containers must drop ALL capabilities, and are only permitted to add back the NET_BIND_SERVICE capability.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Container capabilities must only include NET_BIND_SERVICE"
+    },
+    {
+        "desc": "The container should drop all default capabilities and add only those that are needed for its execution.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default capabilities not dropped"
+    },
+    {
+        "desc": "Enforcing CPU limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "CPU not limited"
+    },
+    {
+        "desc": "An immutable root file system prevents applications from writing to their local disk. This can limit intrusions, as attackers will not be able to tamper with the file system or write foreign executables to disk.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Root file system is not read-only"
+    },
+    {
+        "desc": "When containers have resource requests specified, the scheduler can make better decisions about which nodes to place pods on, and how to deal with resource contention.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "CPU requests not specified"
+    },
+    {
+        "desc": "When containers have memory requests specified, the scheduler can make better decisions about which nodes to place pods on, and how to deal with resource contention.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory requests not specified"
+    },
+    {
+        "desc": "Enforcing memory limits prevents DoS via resource exhaustion.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Memory not limited"
+    },
+    {
+        "desc": "Force the container to run with user ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low user ID"
+    },
+    {
+        "desc": "Force the container to run with group ID > 10000 to avoid conflicts with the host\u2019s user table.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Runs with low group ID"
+    },
+    {
+        "desc": "The RuntimeDefault/Localhost seccomp profile must be required, or allow specific additional profiles.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Default Seccomp profile not set"
+    },
+    {
+        "desc": "Containers must drop ALL capabilities, and are only permitted to add back the NET_BIND_SERVICE capability.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "Container capabilities must only include NET_BIND_SERVICE"
+    },
+    {
+        "desc": "ensure that User pods are not placed in kube-system namespace",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "User Pods should not be placed in kube-system namespace"
+    },
+    {
+        "desc": "ensure that User pods are not placed in kube-system namespace",
+        "severity": "MEDIUM",
+        "source": "./reports/trivy-results.json",
+        "title": "User Pods should not be placed in kube-system namespace"
+    }
+]

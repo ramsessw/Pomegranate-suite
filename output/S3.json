@@ -1,0 +1,104 @@
+[
+    {
+        "desc": "Ensure platform flag with FROM command is not used for Docker file",
+        "severity": "MEDIUM",
+        "source": "./reports/terrascan-report.json",
+        "title": "imageVersionnotusinglatest"
+    },
+    {
+        "desc": "Ensure platform flag with FROM command is not used for Docker file",
+        "severity": "MEDIUM",
+        "source": "./reports/terrascan-report.json",
+        "title": "imageVersionnotusinglatest"
+    },
+    {
+        "desc": "You should use COPY instead of ADD unless you want to extract a tar file. Note that an ADD command will extract a tar file, which adds the risk of Zip-based vulnerabilities. Accordingly, it is advised to use a COPY command, which does not extract tar files.",
+        "severity": "LOW",
+        "source": "./reports/trivy-results.json",
+        "title": "ADD instead of COPY"
+    },
+    {
+        "desc": "Ensure a separate partition for containers has been created (Automated)",
+        "severity": "WARN",
+        "source": "./reports/docker-bench-report.json",
+        "title": "Host Configuration"
+    },
+    {
+        "desc": "Ensure auditing is configured for the Docker daemon (Automated)",
+        "severity": "WARN",
+        "source": "./reports/docker-bench-report.json",
+        "title": "Host Configuration"
+    },
+    {
+        "desc": "Ensure auditing is configured for Docker files and directories -/run/containerd (Automated)",
+        "severity": "WARN",
+        "source": "./reports/docker-bench-report.json",
+        "title": "Host Configuration"
+    },
+    {
+        "desc": "Ensure auditing is configured for Docker files and directories - /var/lib/docker (Automated)",
+        "severity": "WARN",
+        "source": "./reports/docker-bench-report.json",
+        "title": "Host Configuration"
+    },
+    {
+        "desc": "Ensure auditing is configured for Docker files and directories - /etc/docker (Automated)",
+        "severity": "WARN",
+        "source": "./reports/docker-bench-report.json",
+        "title": "Host Configuration"
+    },
+    {
+        "desc": "Ensure auditing is configured for Docker files and directories - docker.service (Automated)",
+        "severity": "WARN",
+        "source": "./reports/docker-bench-report.json",
+        "title": "Host Configuration"
+    },
+    {
+        "desc": "Ensure auditing is configured for Docker files and directories - docker.socket (Automated)",
+        "severity": "WARN",
+        "source": "./reports/docker-bench-report.json",
+        "title": "Host Configuration"
+    },
+    {
+        "desc": "Ensure auditing is configured for Docker files and directories - /etc/default/docker (Automated)",
+        "severity": "WARN",
+        "source": "./reports/docker-bench-report.json",
+        "title": "Host Configuration"
+    },
+    {
+        "desc": "1.1.12 Ensure auditing is configured for Dockerfiles and directories - /etc/containerd/config.toml (Automated)",
+        "severity": "WARN",
+        "source": "./reports/docker-bench-report.json",
+        "title": "Host Configuration"
+    },
+    {
+        "desc": "Ensure auditing is configured for Docker files and directories - /usr/bin/containerd (Automated)",
+        "severity": "WARN",
+        "source": "./reports/docker-bench-report.json",
+        "title": "Host Configuration"
+    },
+    {
+        "desc": "Ensure auditing is configured for Docker files and directories - /usr/bin/containerd-shim (Automated)",
+        "severity": "WARN",
+        "source": "./reports/docker-bench-report.json",
+        "title": "Host Configuration"
+    },
+    {
+        "desc": "Ensure auditing is configured for Docker files and directories - /usr/bin/containerd-shim-runc-v1 (Automated)",
+        "severity": "WARN",
+        "source": "./reports/docker-bench-report.json",
+        "title": "Host Configuration"
+    },
+    {
+        "desc": "Ensure auditing is configured for Docker files and directories - /usr/bin/containerd-shim-runc-v2 (Automated)",
+        "severity": "WARN",
+        "source": "./reports/docker-bench-report.json",
+        "title": "Host Configuration"
+    },
+    {
+        "desc": "Ensure auditing is configured for Docker files and directories - /usr/bin/runc (Automated)",
+        "severity": "WARN",
+        "source": "./reports/docker-bench-report.json",
+        "title": "Host Configuration"
+    }
+]
