@@ -51,8 +51,8 @@ cd $WRKDIR
 echo “Automated scan completed.”
 
 echo “Started parsing reports.”
-python3 parser.py
+python3 analysis.py
 git add .
 git commit -m 'Added new results'
 git push origin main
-echo “Summary for results is created: summary.md”
+echo “Files are created for refoactoring advises”
