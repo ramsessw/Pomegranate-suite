@@ -1,11 +1,11 @@
 | Category   | Security Defect                                      | Security Practice                                                        | Id | Status |
 |------------|------------------------------------------------------|--------------------------------------------------------------------------|--------|--------|
-| Container  | Vulnerable container images                          | Prevent containers from loading vulnerable kernel modules                | S1     |&#10004;|
-|            | Unnecessary Privileges                               | Follow The Least Privilege Principle                                     | S2     |&#10005;|
+| Container  | Vulnerable container images                          | Prevent containers from loading vulnerable software libraries            | S1     |&#10004;|
+|            | Unnecessary Privileges                               | Use authentication and follow The Least Privilege Principle              | S2     |&#10005;|
 |            | Faulty container configuration                       | Audit and harden container configuration files                           | S3     |&#10005;|
-| Kubernetes | Unauthorized access through Kubernetes cluster       | Use Transport Layer Security (TLS) for all API traffic                   | S4     |&#10005;|
-|            |                                                      | Use Service Accounts                                                     | S5     |&#10005;|
-|            |                                                      | Use Role Base Access Control (RBAC)                                      | S6     |&#10004;|
+| Kubernetes | Malicious  access through Kubernetes cluster         | Use Transport Layer Security (TLS) for all API traffic                   | S4     |&#10005;|
+|            |                                                      | Use Service Accounts  API Authentication                                 | S5     |&#10005;|
+|            |                                                      | Use Role Base Access Control (RBAC) for API Authorization                 | S6     |&#10004;|
 |            | Unlimited resource usage and capabilities on cluster | Restrict resource usage, user capabilities and network access on cluster | S7     |&#10004;|
 |            | Explosure of cluster components                      | Restrict access to etcd                                                  | S8     |&#10004;|
 |            |                                                      | Restrict access to alpha or beta features                                | S9     |&#10004;|
