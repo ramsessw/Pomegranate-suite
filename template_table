@@ -1,9 +1,9 @@
 | Category   | Security Defect                                      | Security Practice                                                        | Id | Status |
 |------------|------------------------------------------------------|--------------------------------------------------------------------------|--------|--------|
-| Container  | Vulnerable container images                          | Prevent containers from loading vulnerable kernel modules                | S1     |
-|            | Unnecessary Privileges                               | Follow The Least Privilege Principle                                     | S2     |
+| Container  | Vulnerable container images                          | Prevent containers from loading vulnerable software libraries            | S1     |
+|            | Unnecessary Privileges                               | Use authentication follow The Least Privilege Principle                  | S2     |
 |            | Faulty container configuration                       | Audit and harden container configuration files                           | S3     |
-| Kubernetes | Unauthorized access through Kubernetes cluster       | Use Transport Layer Security (TLS) for all API traffic                   | S4     |
+| Kubernetes | Malicious  access through Kubernetes cluster       | Use Transport Layer Security (TLS) for all API traffic                     | S4     |
 |            |                                                      | Use Service Accounts                                                     | S5     |
 |            |                                                      | Use Role Base Access Control (RBAC)                                      | S6     |
 |            | Unlimited resource usage and capabilities on cluster | Restrict resource usage, user capabilities and network access on cluster | S7     |
